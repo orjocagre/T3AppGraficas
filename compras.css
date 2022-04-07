@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color: #F8F8F8;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(67, 173, 173);
+    padding: 3rem 2rem;
+}
+header picture {
+    display: flex;
+    align-items: center;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main > div {
+    background-color: white;
+    border-radius: 2rem;
+    width: 90vw;
+    height: 15rem;
+    margin: 1rem 0;
+}
